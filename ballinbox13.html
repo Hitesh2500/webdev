@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 400px;
+            width: 300px;
+            background-color: silver;
+            display: flex;
+            align-items: end;
+    }
+          .ball{height: 50px;
+            width: 50px;
+            background-color: black;
+            border-radius: 50%;
+            animation:roll 4s ease 1s infinite alternate ;
+
+          } 
+          img{
+            height: 50px;
+          }
+          @keyframes roll{
+            0%{
+                transform: translate(0px,0px);
+
+            }
+           
+            
+            100%{
+                transform: translate(250px,0px);
+                background-color: blueviolet;
+            }
+          }
+            
+        
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="ball">
+         <img src="https://imgs.search.brave.com/zRFPjMtLra0RG9p8WOT4_hstX3LLHHn9wEELE9I2wlA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wbmdw/aXguY29tL2ltYWdl/cy9oZC9idWdhdHRp/LXNpZGUtcHJvZmls/ZS1wbmctOTMtaHdm/eTVqd2pkNzJ1cXI1/MC5qcGc" alt="">
+        </div>
+    </div>
+    
+</body>
+</html>
